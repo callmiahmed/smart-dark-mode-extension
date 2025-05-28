@@ -1,0 +1,28 @@
+{
+  "name": "Smart Dark Mode",
+  "description": "Filter-based dark mode for any website",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles/dark.css"],
+      "js": ["scripts/content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  }
+}
+
