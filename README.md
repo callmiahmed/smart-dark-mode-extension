@@ -19,7 +19,7 @@ A simple, effective dark mode Chrome extension that applies a global dark theme 
 
 | Normal Mode | Dark Mode |
 |-------------|------------|
-| ![Light Screenshot](./screenshot-light.png) | ![Dark Screenshot](./screenshot-dark.png) |
+| ![Light Screenshot](./org.png) | ![Dark Screenshot](./set.png) |
 
 ---
 
