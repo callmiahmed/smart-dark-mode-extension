@@ -1,0 +1,20 @@
+:root.dark-mode {
+    filter: invert(90%) hue-rotate(180deg) !important;
+}
+
+/* Prevent double inversion of media */
+:root.dark-mode img,
+:root.dark-mode video,
+:root.dark-mode picture,
+:root.dark-mode canvas,
+:root.dark-mode [style*="background-image"],
+:root.dark-mode iframe {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+/* Preserve SVGs and icons */
+:root.dark-mode svg,
+:root.dark-mode [class*="icon"],
+:root.dark-mode [class*="logo"] {
+    filter: invert(100%) hue-rotate(180deg) !important;
+}
