@@ -53,6 +53,3 @@ Want to publish it yourself? Follow [this guide](https://developer.chrome.com/do
 Hard-coded themes can break layouts or miss dynamic content. This filter-based approach adapts to all sites **without requiring per-site fixes**, ensuring a consistent and clean dark experience.
 
 ---
-
-## 📁 File Structure
-
