@@ -1,4 +1,4 @@
-# 🌙 Smart Dark Mode — Chrome Extension
+# 🌙 Smart Dark Mode | Chrome Extension
 
 A simple, effective dark mode Chrome extension that applies a global dark theme to all websites **without breaking layouts or content**. It uses intelligent CSS filters and saves your dark mode preferences per website.
 
@@ -10,7 +10,7 @@ A simple, effective dark mode Chrome extension that applies a global dark theme 
 - 🧠 Uses `invert()` + `hue-rotate()` CSS filters to avoid layout messiness  
 - 💾 Remembers which websites you enabled dark mode for using `chrome.storage.sync`  
 - 📷 Preserves colors for images, videos, and canvas elements  
-- ⚡ Lightweight and fast — no unnecessary overhead  
+- ⚡ Lightweight and fast | no unnecessary overhead  
 - 🧩 Built on Manifest V3 (latest Chrome Extension standard)
 
 ---
